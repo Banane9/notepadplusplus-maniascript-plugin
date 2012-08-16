@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+@author	 Arne Kiesewetter - https://github.com/Banane9
+@version	1.0
+-->
+<NotepadPlus>
+	<AutoComplete>
+		<KeyWord name="assert" func="yes">
+			<Overload retVal="Void">
+				<Param name="Boolean"/>
+			</Overload>
+		</Keyword>
+		<KeyWord name="CAnchor::DefaultTag">
+			<Overload retVal="const Text DefaultTag"/>
+		</KeyWord>
+		<KeyWord name="CAnchorData::DefaultOrder">
+			<Overload retVal="const Integer DefaultOrder"/>
+		</KeyWord>
+		<KeyWord name="CAnchorData::Tag">
+			<Overload retVal="Text Tag"/>
+		</KeyWord>
+		<KeyWord name="CAnchorData::Order">
+			<Overload retVal="Integer Order"/>
+		</KeyWord>
+		<KeyWord name="CBlock::CardinalDirections::North">
+			<Overload retVal="const CardinalDirections North"/>
+		</KeyWord>
+		<KeyWord name="CBlock::CardinalDirections::East">
+			<Overload retVal="const CardinalDirections East"/>
+		</KeyWord>
+		<KeyWord name="CBlock::CardinalDirections::South">
+			<Overload retVal="const CardinalDirections South"/>
+		</KeyWord>
+		<KeyWord name="CBlock::CardinalDirections::West">
+			<Overload retVal="const CardinalDirections West"/>
+		</KeyWord>
+		<KeyWord name="CBlock::UseDefaultAnchor" func="yes">
+			<Overload retVal="Void"/>
+		</KeyWord>
+		<KeyWord name="CBlock::UseCustomAnchor" func="yes">
+			<Overload retVal="Void"/>
+		</KeyWord>
+		<KeyWord name="CBlock::BlockScriptId">
+			<Overload retVal="const Integer BlockScriptId"/>
+		</KeyWord>
+		<KeyWord name="CBlock::CanHaveAnchor">
+			<Overload retVal="const Boolean CanHaveAnchor"/>
+		</KeyWord>
+		<KeyWord name="CBlock::Coord">
+			<Overload retVal="const Int3 Coord"/>
+		</KeyWord>
+		<KeyWord name="CBlock::Direction">
+			<Overload retVal="const CardinalDirections Direction"/>
+		</KeyWord>
+		<KeyWord name="CBlock::BlockUnits">
+			<Overload retVal="const CBlockUnit[]"/>
+		</KeyWord>
+		<KeyWord name="CBlock::BlockModel">
+			<Overload retVal="const CBlockModel BlockModel"/>
+		</KeyWord>
+		<KeyWord name="CBlockModel::EWayPointType::Start">
+			<Overload retVal="const EWayPointType Start"/>
+		</KeyWord>
+		<KeyWord name="CBlockModel::EWayPointType::Finish">
+			<Overload retVal="const EWayPointType Finish"/>
+		</KeyWord>
+		<KeyWord name="CBlockModel::EWayPointType::Checkpoint">
+			<Overload retVal="const EWayPointType Checkpoint"/>
+		</KeyWord>
+		<KeyWord name="CBlockModel::EWayPointType::None">
+			<Overload retVal="const EWayPointType None"/>
+		</KeyWord>
+		<KeyWord name="CBlockModel::EWayPointType::StartFinish">
+			<Overload retVal="const EWayPointType StartFinish"/>
+		</KeyWord>
+		<KeyWord name="CBlockModel::EWayPointType::InsideToOutsideZ">
+			<Overload retVal="const EWayPointType InsideToOutsideZ"/>
+		</KeyWord>
+		<KeyWord name="CBlockModel::EWayPointType::InsideToOutsideY">
+			<Overload retVal="const EWayPointType InsideToOutsideY"/>
+		</KeyWord>
+		<KeyWord name="CBlockModel::Name">
+			<Overload retVal="const Text Name"/>
+		</KeyWord>
+		<KeyWord name="CBlockModel::IsRoad">
+			<Overload retVal="const Boolean IsRoad"/>
+		</KeyWord>
+		<KeyWord name="CBlockModel::IsTerrain">
+			<Overload retVal="const Boolean IsTerrain"/>
+		</KeyWord>
+		<KeyWord name="CBlockModel::WayPointType">
+			<Overload retVal="const EWayPointType WayPointType"/>
+		</KeyWord>
+		<KeyWord name="CBlockModel::NoRespawn">
+			<Overload retVal="const Boolean NoRespawn"/>
+		</KeyWord>
+		<KeyWord name="CBlockModel::VariantGround">
+			<Overload retVal="const CBlockModelVariantGround VariantGround"/>
+		</KeyWord>
+		<KeyWord name="CBlockModel::VariantAir">
+			<Overload retVal="const CBlockModelVariantAir VariantAir"/>
+		</KeyWord>
+		<KeyWord name="CBlockModelClip::ClipType::ClassicClip">
+			<Overload retVal="const ClipType ClassicClip"/>
+		</KeyWord>
+		<KeyWord name="CBlockModelClip::ClipType::FreeClipSide">
+			<Overload retVal="const ClipType FreeClipSide"/>
+		</KeyWord>
+		<KeyWord name="CBlockModelClip::ClipType::FreeClipTop">
+			<Overload retVal="const ClipType FreeClipTop"/>
+		</KeyWord>
+		<KeyWord name="CBlockModelClip::ClipType::FreeClipBottom">
+			<Overload retVal="const ClipType FreeClipBottom"/>
+		</KeyWord>
+		<KeyWord name="CBlockModelVariant::Name">
+			<Overload retVal="Text Name"/>
+		</KeyWord>
+		<KeyWord name="CBlockModelVariant::IsAllUnderground">
+			<Overload retVal="const Boolean IsAllUnderground"/>
+		</KeyWord>
+		<KeyWord name="CBlockModelVariant::IsPartUnderground">
+			<Overload retVal="const Boolean IsPartUnderground"/>
+		</KeyWord>
+		<KeyWord name="CBlockModelVariant::Size">
+			<Overload retVal="const Int3 Size"/>
+		</KeyWord>
+		<KeyWord name="CBlockModelVariant::OffsetBoundingBoxMin">
+			<Overload retVal="const Int3 OffsetBoundingBoxMin"/>
+		</KeyWord>
+		<KeyWord name="CBlockModelVariant::OffsetBoundingMax">
+			<Overload retVal="const Int3 OffsetBoundingMax"/>
+		</KeyWord>
+		<KeyWord name="CBlockModelVariant::BlockUnitModels">
+			<Overload retVal="CBlockUnitModel[] BlockUnitModels"/>
+		</KeyWord>
+		<KeyWord name="CBlockModelVariantAir"/>
+		<KeyWord name="CBlockModelVariantGround::AutoTerrainPlaceType::Auto">
+			<Overload retVal="const AutoTerrainPlaceType Auto"/>
+		</KeyWord>
+		<KeyWord name="CBlockModelVariantGround::AutoTerrainPlaceType::Force">
+			<Overload retVal="const AutoTerrainPlaceType Force"/>
+		</KeyWord>
+		<KeyWord name="CBlockModelVariantGround::AutoTerrainPlaceType::DoNotPlace">
+			<Overload retVal="const AutoTerrainPlaceType DoNotPlace"/>
+		</KeyWord>
+		<KeyWord name="CBlockModelVariantGround::AutoTerrainPlaceType::DoNotDestroy">
+			<Overload retVal="const AutoTerrainPlaceType DoNotDestroy"/>
+		<!--</KeyWord>
+		<KeyWord name="">
+			<Overload retVal=""/>
+		</KeyWord>
+		<KeyWord name="">
+			<Overload retVal=""/>
+		</KeyWord>
+		<KeyWord name="">
+			<Overload retVal=""/>
+		</KeyWord>
+		<KeyWord name="">
+			<Overload retVal=""/>
+		</KeyWord>
+		<KeyWord name="">
+			<Overload retVal=""/>
+		</KeyWord>-->
+		<KeyWord name="CMlEvent::Type::MouseClick"/>
+		<KeyWord name="CMlEvent::Type::MouseOut"/>
+		<KeyWord name="CMlEvent::Type::MouseOver"/>
+		<KeyWord name="CMlEvent::Type::KeyPress"/>
+		<KeyWord name="CurrentTime">
+			<Overload retVal="Integer CurrentTime"/>
+		</KeyWord>
+		<KeyWord name="log" func="yes">
+			<Overload retVal="void">
+				<Param name="* output"/>
+			</Overload>
+		</KeyWord>
+	</AutoComplete>
+</NotepadPlus>
