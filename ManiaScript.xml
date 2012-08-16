@@ -146,16 +146,16 @@
 		<KeyWord name="CBlockModelVariantGround::AutoTerrainPlaceType::DoNotDestroy">
 			<Overload retVal="const AutoTerrainPlaceType DoNotDestroy"/>
 		</KeyWord>		
+		<KeyWord name="CBlockUnit::Offset">
+			<Overload retVal="const Int3 Offset"/>
+		</KeyWord>
+		<KeyWord name="CBlockUnit::BlockUnitModel">
+			<Overload retVal="const CBlockUnitModel BlockUnitModel"/>
+		</KeyWord>
+		<KeyWord name="CBlockUnit::Block">
+			<Overload retVal="const CBlock Block"/>
+		</KeyWord>
 		<!--<KeyWord name="">
-			<Overload retVal=""/>
-		</KeyWord>
-		<KeyWord name="">
-			<Overload retVal=""/>
-		</KeyWord>
-		<KeyWord name="">
-			<Overload retVal=""/>
-		</KeyWord>
-		<KeyWord name="">
 			<Overload retVal=""/>
 		</KeyWord>
 		<KeyWord name="">
